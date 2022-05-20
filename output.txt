@@ -1,0 +1,80 @@
+#########################################################
+# Let’s play Wordle.                                    #
+# Your goal is to guess a secret word.                  #
+# The word may have duplicated letters.                 #
+# For each guess, you receive a feedback.               #
+# ’H’ for hits, ’m’ for miss, and ’-’ for others.       #
+# Your commands are as follows:                         #
+#   s for showing the secret,                           #
+#   h for show the history, and                         #
+#   g for giving up and terminating the present puzzle. #
+#########################################################
+Choose the length for secret, here: 6
+Enter your guess below:
+>alumni
+---m-m
+>biotic
+-m--m-
+>s
+Secret = smirks
+>sdfgfdssdfggfd
+Invalid input.
+>smirks
+HHHHHH
+You've got it!
+History:
+ 1:alumni:---m-m
+ 2:biotic:-m--m-
+ 3:smirks:HHHHHH
+Another game (y for yes and n for no)? y
+#########################################################
+# Let’s play Wordle.                                    #
+# Your goal is to guess a secret word.                  #
+# The word may have duplicated letters.                 #
+# For each guess, you receive a feedback.               #
+# ’H’ for hits, ’m’ for miss, and ’-’ for others.       #
+# Your commands are as follows:                         #
+#   s for showing the secret,                           #
+#   h for show the history, and                         #
+#   g for giving up and terminating the present puzzle. #
+#########################################################
+Choose the length for secret, here: 6
+Enter your guess below:
+>bowels
+-m---m
+>choosy
+-Hmmmm
+>physio
+HHHHHH
+You've got it!
+History:
+ 1:bowels:-m---m
+ 2:choosy:-Hmmmm
+ 3:physio:HHHHHH
+Another game (y for yes and n for no)? y
+#########################################################
+# Let’s play Wordle.                                    #
+# Your goal is to guess a secret word.                  #
+# The word may have duplicated letters.                 #
+# For each guess, you receive a feedback.               #
+# ’H’ for hits, ’m’ for miss, and ’-’ for others.       #
+# Your commands are as follows:                         #
+#   s for showing the secret,                           #
+#   h for show the history, and                         #
+#   g for giving up and terminating the present puzzle. #
+#########################################################
+Choose the length for secret, here: 6
+Enter your guess below:
+>aliens
+m--mm-
+>dfghjklkjhgfdsdfghj
+Invalid input.
+>s
+Secret = ranked
+>q
+Invalid input.
+>g
+History:
+ 1:aliens:m--mm-
+Secret = ranked
+Thanks for playing!
